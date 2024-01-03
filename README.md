@@ -52,3 +52,5 @@ Issue와 마일스톤을 가시적으로 볼 수 있다.
 ~~플랫폼을 늘려봤자 활성화가 안되는 걸 몇번이나 봤다.~~
 
 ## Action
+CI/CD
+- [Action 시작하기](https://docs.github.com/ko/actions/quickstart)
