@@ -61,3 +61,4 @@ CI/CD
 
 - [Action 이론](https://www.youtube.com/watch?v=iLqGzEkusIw&pp=ygUNYWN0aW9uIGdpdGh1Yg%3D%3D)
 - [Action 시작하기](https://docs.github.com/ko/actions/quickstart)
+- [YML 뜯어보기](https://ffoorreeuunn.tistory.com/454)
