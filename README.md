@@ -54,6 +54,8 @@ Issue와 마일스톤을 가시적으로 볼 수 있다.
 ## Wiki
 우리가 최종적으로 정리한 내용, 컨벤션 정리, 만약 라이브러리라면 이걸 어떻게 사용하면 좋은지, 등...
 정리해놓은 문서 집합이라고 보면 된다.
+나중에 이것도 README에서 Wiki로 옮겨야겠다!
+
 - [wiki란?](https://docs.github.com/ko/communities/documenting-your-project-with-wikis/about-wikis)
 
 ## Action
