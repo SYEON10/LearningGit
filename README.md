@@ -25,7 +25,7 @@ README를 작성하는 방법부터 마크다운 언어 사용방법까지 나�
 
 ## Overview
 Overview 에서 내가 가진 기술들, 내가 어떤 프로젝트를 했는지, 등을 아름답게 보여줄 수 있다.
-- [Overview 꾸미기](https://velog.io/@serajang99/GitHub-Overview-%EA%BE%B8%EB%AF%B8%EA%B8%B0)
+- [Overview 꾸미기](https://www.sitepoint.com/github-profile-readme/)
 
 ## PR
 PR의 내용, 간격, 템플릿을 다룬다.
@@ -47,10 +47,17 @@ PR의 내용, 간격, 템플릿을 다룬다.
 Issue와 마일스톤을 가시적으로 볼 수 있다.
 
 ## Discussion
-회의록 작성, Q&A, 투표, 아이디어 제시, 정보 공유 등 당장 해결할 필요도 없고, 일정에 들어가야 하는 것도 아닌데, 우리가 함께 나누었으면 좋겠는 것들이 있다.
+회의록, Q&A, 투표, 아이디어 제시, 정보 공유 등 당장 해결할 필요도 없고, 일정에 들어가야 하는 것도 아닌데, 우리가 함께 나누었으면 좋겠는 것들이 있다.
+
 그럴 때 Dicsussion 을 쓰자!
-~~플랫폼을 늘려봤자 활성화가 안되는 걸 몇번이나 봤다.~~
+
+## Wiki
+우리가 최종적으로 정리한 내용, 컨벤션 정리, 만약 라이브러리라면 이걸 어떻게 사용하면 좋은지, 등...
+정리해놓은 문서 집합이라고 보면 된다.
+- [wiki란?](https://docs.github.com/ko/communities/documenting-your-project-with-wikis/about-wikis)
 
 ## Action
 CI/CD
+
+- [Action 이론](https://www.youtube.com/watch?v=iLqGzEkusIw&pp=ygUNYWN0aW9uIGdpdGh1Yg%3D%3D)
 - [Action 시작하기](https://docs.github.com/ko/actions/quickstart)
