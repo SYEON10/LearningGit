@@ -16,7 +16,6 @@ jobs:
         if: ${{ !startsWith(env.UNITY_LICENSE, '<') }}
         run: exit 1
         
-jobs:
   buildWebGL:
     name: Build WebGL&Release Github
     runs-on: ubuntu-latest
