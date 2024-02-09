@@ -21,12 +21,15 @@ jobs:
     name: Build WebGL&Release Github
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+          
       - name: Build WebGL
         uses: game-ci/unity-builder@v4
         with:
           targetPlayform: WebGL
-#      - name: Save Build on build/WebGL folder
-#        uses: actions/upload-artifact@v3
-#        with:
-#          name: Build-WebGL
-#          path: build/WebGL
+      - name: Save Build on build/WebGL folder
+        uses: actions/upload-artifact@v3
+        with:
+          name: Build-WebGL
+          path: build/WebGL
