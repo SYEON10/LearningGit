@@ -37,8 +37,6 @@ jobs:
         uses: game-ci/unity-builder@v4
         with:
           targetPlatform: WebGL
-          buildName: build-WebGL-builder
-          buildsPath: build/WebGL
           
           
       - name: Save Build on build/WebGL folder 💾
@@ -58,10 +56,10 @@ jobs:
       - uses: actions/download-artifact@v4
         with:
           name: build-WebGL
-          path: build/WebGL
+          path: build
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@4.1.4
         with:
           branch: gh-pages
-          folder: build
+          folder: build/WebGL
