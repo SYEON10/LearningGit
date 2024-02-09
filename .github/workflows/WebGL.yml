@@ -22,12 +22,21 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
+
+      - name: Restore Library cache
+        uses: actions/cache@v2
+        with:
+          path: Library
+          key: Library-build-WebGL
+          restore-keys: |
+            Library-build-
+            Library-
           
       - name: Build WebGL
         uses: game-ci/unity-builder@v4
         with:
-          targetPlayform: WebGL
+          targetPlatform: WebGL
           buildName: build-WebGL-builder
           buildsPath: build/WebGL
           
