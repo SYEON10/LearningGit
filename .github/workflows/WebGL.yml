@@ -33,7 +33,7 @@ jobs:
             Library-build-
             Library-
           
-      - name: Build WebGL
+      - name: Build WebGL 🛠
         uses: game-ci/unity-builder@v4
         with:
           targetPlatform: WebGL
@@ -41,7 +41,7 @@ jobs:
           buildsPath: build/WebGL
           
           
-      - name: Save Build on build/WebGL folder
+      - name: Save Build on build/WebGL folder 💾
         uses: actions/upload-artifact@v4
         with:
           name: build-WebGL
@@ -65,4 +65,3 @@ jobs:
         with:
           branch: gh-pages
           folder: build/WebGL
-          ssh-key: ${{ secrets.DEPLOY_KEY }}
