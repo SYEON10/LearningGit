@@ -1,12 +1,9 @@
-name: GameCI Template 🎮
+name: GameCI/CD🎮
 
 on: push
 
 env:
   UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
-  UNITY_EMAIL: ${{ secrets.UNITY_EMAIL }}
-  UNITY_PASSWORD: ${{ secrets.UNITY_PW }}
-  UNITY_SERIAL: ${{ secrets.UNITY_SERIAL }}
 
 jobs:
   checkLicense:
@@ -18,10 +15,10 @@ jobs:
         run: exit 1
         
   buildWebGL:
-    name: Build WebGL&Release Github
+    name: Build WebGL 🔨
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout code
+      - name: Checkout code 
         uses: actions/checkout@v4
 
       - name: Restore Library cache
@@ -33,12 +30,11 @@ jobs:
             Library-build-
             Library-
           
-      - name: Build WebGL 🛠
+      - name: Build WebGL 🔨
         uses: game-ci/unity-builder@v4
         with:
           targetPlatform: WebGL
-          
-          
+        
       - name: Save Build on build/WebGL folder 💾
         uses: actions/upload-artifact@v4
         with:
