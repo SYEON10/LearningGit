@@ -1,6 +1,6 @@
 name: GameCI/CD🎮
 
-on: push
+on:
 
 env:
   UNITY_EMAIL: ${{ secrets.UNITY_EMAIL }}
